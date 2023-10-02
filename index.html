@@ -41,8 +41,23 @@
   <main id="router-view">
     <!-- PRIMARY VIEWPORT -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-4">
+      <section class="row">
+        <div class="col-12 p-5">
+          <form onsubmit="app.PingPongPlayersController.createPingPongPlayer(event)">
+            <label for="playerName">Player Name</label>
+            <input id="playerName" type="text" name="name" required>
+            <label for="playerImgUrl">Image URL</label>
+            <input id="playerImgUrl" type="url" name="imgUrl" required>
+            <div>
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      <section id="pingPongPlayers" class="row">
+        <!-- <div class="col-12 col-md-4">
           <div class="bg-secondary">
             <img
               src="https://images.unsplash.com/photo-1615885630626-ccbe053eaecf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
@@ -58,8 +73,8 @@
             </div>
 
           </div>
-        </div>
-      </div>
+        </div> -->
+      </section>
     </div>
   </main>
 
