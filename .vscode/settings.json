@@ -1,0 +1,26 @@
+{
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#f1d16d",
+    "activityBar.background": "#f1d16d",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#0e9172",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#f1d16d",
+    "statusBar.background": "#edc33e",
+    "statusBar.debuggingBackground": "#3e68ed",
+    "statusBar.debuggingForeground": "#e7e7e7",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#e3b115",
+    "statusBarItem.remoteBackground": "#edc33e",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#edc33e",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#edc33e99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#edc33e",
+}
