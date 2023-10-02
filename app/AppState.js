@@ -4,7 +4,7 @@ import { EventEmitter } from "./utils/EventEmitter.js"
 import { isValidProp } from "./utils/isValidProp.js"
 import { loadState } from "./utils/Store.js"
 
-// NOTE 🚗
+// NOTE this is where we store our global variables, inside of the ObservableAppState class
 class ObservableAppState extends EventEmitter {
   page = ''
 
@@ -23,6 +23,7 @@ class ObservableAppState extends EventEmitter {
 
 }
 
+// NOTE 🚗
 export const AppState = new Proxy(new ObservableAppState(), {
   get(target, prop) {
     isValidProp(target, prop)

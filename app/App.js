@@ -2,6 +2,7 @@ import { AppState } from './AppState.js';
 import { router } from './router.js';
 
 
+// NOTE entrypoint to our js code in our application
 // REVIEW car goes 🚗
 class App {
 

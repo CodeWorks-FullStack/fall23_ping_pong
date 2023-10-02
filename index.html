@@ -38,13 +38,18 @@
   </header>
 
   <!-- SECTION -->
+  <!-- NOTE this where the router will inject views into if they are set up in route objects -->
   <main id="router-view">
     <!-- PRIMARY VIEWPORT -->
     <div class="container-fluid">
       <section class="row">
         <div class="col-12 p-5">
+          <!-- NOTE creates a form on the page that can capture the values stored within our input tags -->
+          <!-- NOTE we pass through the event here so that we can prevent the page from refreshing in our controller -->
           <form onsubmit="app.PingPongPlayersController.createPingPongPlayer(event)">
+            <!-- NOTE inputs should have labels, the for attribute should match the id of the input -->
             <label for="playerName">Player Name</label>
+            <!-- NOTE  -->
             <input id="playerName" type="text" name="name" required>
             <label for="playerImgUrl">Image URL</label>
             <input id="playerImgUrl" type="url" name="imgUrl" required>
@@ -57,6 +62,8 @@
 
 
       <section id="pingPongPlayers" class="row">
+
+        <!-- NOTE this HTML was moved to the PingPongPlayer class -->
         <!-- <div class="col-12 col-md-4">
           <div class="bg-secondary">
             <img
